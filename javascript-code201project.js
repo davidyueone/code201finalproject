@@ -1,8 +1,8 @@
 // Javascript
 let loginForm = document.getElementById("loginForm");
 
-// loginForm.addEventListener("submit", (e) => {
-// e.preventDefault();
+loginForm.addEventListener("submit", (e) => {
+e.preventDefault();
 
 let username = document.getElementById("username");
 let password = document.getElementById("password");
