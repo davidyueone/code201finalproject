@@ -80,9 +80,9 @@
       if(currentSlide === 0){
         previousButton.style.display = 'none';
       }
-      // else{
-      //  previousButton.style.display = 'inline-block';
-      // }
+      else {
+      previousButton.style.display = 'inline-block';
+      }
       if(currentSlide === slides.length-1){
         nextButton.style.display = 'none';
         previousButton.style.display = 'none';
@@ -91,6 +91,11 @@
       else{
         nextButton.style.display = 'inline-block';
         submitButton.style.display = 'none';
+      }
+      if(currentSlide === slides.length){
+        nextButton.style.display = 'none';
+        previousButton.style.display = 'none';
+        submitButton.style.display = 'none';      
       }
     }
   
@@ -196,6 +201,12 @@
           d: "HFS+"
         },
         correctAnswer: "c"
+      },
+      {
+        question: "Congratulations! You have completed this Linux Quiz!",
+        answers: {
+        },
+        correctAnswer: ""
       }
     ];
   
