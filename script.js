@@ -85,6 +85,7 @@
       }
       if(currentSlide === slides.length-1){
         nextButton.style.display = 'none';
+        previousButton.style.display = 'none';
         submitButton.style.display = 'inline-block';
       }
       else{
