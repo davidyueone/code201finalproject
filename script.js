@@ -80,9 +80,9 @@
       if(currentSlide === 0){
         previousButton.style.display = 'none';
       }
-      else{
-        previousButton.style.display = 'inline-block';
-      }
+      // else{
+      //  previousButton.style.display = 'inline-block';
+      // }
       if(currentSlide === slides.length-1){
         nextButton.style.display = 'none';
         previousButton.style.display = 'none';
