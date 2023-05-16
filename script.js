@@ -46,7 +46,7 @@
       // keep track of user's answers
       let numCorrect = 0;
   
-      // for each question...Who invented JavaScript
+      // for each question
       myQuestions.forEach( (currentQuestion, questionNumber) => {
   
         // find selected answer
