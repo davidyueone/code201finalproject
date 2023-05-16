@@ -1,5 +1,10 @@
-# code201project
+# code201project: A Linux Quiz
+This quiz is taken by users who want to test their knowledge of the Linux operating system.
 
+# Installing / Getting started
+To begin, navigate your web browser to the URL: https://davidyueone.github.io/code201project/
+
+# Licensing
 Copyright (c) 2023 David Yue
 This software is licensed under the MIT license.
 
