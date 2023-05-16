@@ -203,7 +203,7 @@
         correctAnswer: "c"
       },
       {
-        question: "Congratulations! You have completed this Linux Quiz! Click Submit to see your score!",
+        question: "Congratulations! You have completed this Linux Quiz! Click 'Submit Quiz' to see your score!",
         answers: {
         },
         correctAnswer: ""
