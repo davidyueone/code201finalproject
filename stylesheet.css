@@ -43,6 +43,14 @@ button{
 button:hover{
 	background-color: #38a;
 }
+.blink {
+  animation: blinker 1s linear infinite;
+}
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
 
 
 
@@ -65,14 +73,4 @@ button:hover{
   position: relative;
   height: 200px;
   margin-top: 40px;
-}
-.blink {
-  animation: blinker 1.5s linear infinite;
-  color: red;
-  font-family: sans-serif;
-}
-@keyframes blinker {
-   50% {
-   opacity: 0;
-   }
 }
