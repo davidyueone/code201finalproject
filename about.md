@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="./stylesheet.css" media="screen" type="text/css"/>
 </head>
 <body>
- <div class="about-section">
+ <div class="about">
   <h1>About Me</h1>
 </div>
 
