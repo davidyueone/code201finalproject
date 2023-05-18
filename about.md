@@ -1,3 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>About Me</title>
+    <link rel="stylesheet" href="./stylesheet.css" media="screen" type="text/css"/>
+</head>
+<body>
  <div class="about-section">
   <h1>About Me</h1>
 </div>
@@ -6,7 +14,7 @@
 <div class="row">
   <div class="column">
     <div class="card">
-      <img src="https://davidyueone.github.io/code201finalproject/img1.jpg" alt="David" style="width:20%">
+      <img src="https://davidyueone.github.io/code201finalproject/img1.jpg" alt="David" width="300" height="400">
       <div class="container">
         <h2>David Yue</h2>
         <p>I'm an American-born Chinese individual who has started and operated two businesses - one a health consulting firm and 
@@ -53,3 +61,5 @@
 <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
   <script type="text/javascript" src="./script.js"></script>
+</body>
+</html>
