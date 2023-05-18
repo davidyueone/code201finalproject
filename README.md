@@ -1,4 +1,4 @@
-# code201finalproject: A Linux Quiz
+# code301finalproject: A Linux Quiz
 This quiz is taken by users who want to test their knowledge of the Linux operating system.
 
 # Installing / Getting started
