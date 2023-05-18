@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Linux Quiz</title>
+    <link rel="stylesheet" href="./stylesheet.css" media="screen" type="text/css"/>
+</head>
+<body>
+  <div class="header">
+  <h1>Welcome to Cool Quizzes</h1>
+  <p>A <b>responsive</b> website created by me.</p>
+  </div>
+    
+  <div class="navbar">
+  <a href="https://davidyueone.github.io/code201finalproject/" class="active">Home</a>
+  <a href="https://dev.to/abregman/collection-of-linux-resources-3nhk">Linux Learning Websites</a>
+  <a href="https://www.youtube.com/results?search_query=Learning+Linux">Linux Learning Videos</a>
+  </div>
+    
+  <div class="row">
+  <div class="column left" style="background-color:#aaa;">
+    <p><a href="https://davidyueone.github.io/code201finalproject/about.html"><h4>About Me</h4></a></p>
+  <div class="photo" style="height:150px;"><img src="https://davidyueone.github.io/code201finalproject/img1.jpg" width="80" height="80"></div>
+   
+    </div>
+  <div class="column right" style="background-color:#1abc9c;">
+<h2>Linux Quiz</h2>
+    <div class="quiz-container">
+      <div id="quiz"></div>
+    </div>
+    <button id="previous">Previous Question</button>
+    <button id="next">Next Question</button>
+    <button id="submit">Submit Quiz</button>
+    <div class="blink"><div id="results"></div></div></div>
+  </div>
+  <footer class="footer">
+    <div class="waves">
+      <div class="wave" id="wave1"></div>
+      <div class="wave" id="wave2"></div>
+      <div class="wave" id="wave3"></div>
+      <div class="wave" id="wave4"></div>
+    </div>
+    <ul class="social-icon">
+      <li class="social-icon__item"><a class="social-icon__link" href="#">
+          <ion-icon name="logo-facebook"></ion-icon>
+        </a></li>
+      <li class="social-icon__item"><a class="social-icon__link" href="#">
+          <ion-icon name="logo-twitter"></ion-icon>
+        </a></li>
+      <li class="social-icon__item"><a class="social-icon__link" href="#">
+          <ion-icon name="logo-linkedin"></ion-icon>
+        </a></li>
+      <li class="social-icon__item"><a class="social-icon__link" href="#">
+          <ion-icon name="logo-instagram"></ion-icon>
+        </a></li>
+    </ul>
+    <ul class="menu">
+      <li class="menu__item"><a class="menu__link" href="https://davidyueone.github.io/code201finalproject/">Home</a></li>
+      <li class="menu__item"><a class="menu__link" href="#">Services</a></li>
+      <li class="menu__item"><a class="menu__link" href="#">Team</a></li>
+      <li class="menu__item"><a class="menu__link" href="mailto:davidyueone@gmail.com">Contact</a></li>
+
+    </ul>
+    <p>&copy;2023 David Yue | All Rights Reserved</p>
+  </footer>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  
+    <script type="text/javascript" src="./script.js"></script>
+</body>
+</html>
