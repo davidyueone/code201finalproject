@@ -2,7 +2,7 @@
 This quiz is taken by users who want to test their knowledge of the Linux operating system.
 
 # Installing / Getting started
-To begin, navigate your web browser to the URL: https://davidyueone.github.io/code201finalproject/
+To begin, navigate your web browser to the URL: https://davidyueone.github.io/code301finalproject/
 
 # Licensing
 Copyright (c) 2023 David Yue
